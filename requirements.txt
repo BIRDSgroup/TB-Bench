@@ -1,0 +1,26 @@
+# --- Core (benchmarking pipeline) ---
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.7.2
+scipy==1.13.1
+tqdm==4.67.1
+optunity==1.1.1
+
+# Excel support used by pandas.to_excel (your code writes XLSX)
+openpyxl==3.1.5
+
+# Data handling
+pyyaml>=5.3.0
+pickle5>=0.0.11
+
+# --- Deep Learning & Neural Networks (ML-iAMR integration) ---
+tensorflow==2.19.0
+keras==3.10.0
+scikeras  # Keras wrapper for scikit-learn compatibility
+
+# --- Gradient Boosting ---
+xgboost
+
+# --- Visualization ---
+matplotlib
+seaborn

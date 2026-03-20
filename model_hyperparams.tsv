@@ -1,0 +1,13 @@
+key	params
+LogisticRegression-L1__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.3}"
+LogisticRegression-L2__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.31}"
+RandomForest__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.43}"
+SVC-Linear__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.41000000000000003}"
+SVC-RBF__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.24}"
+BernoulliNB__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.02}"
+ANN__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.44}"
+XGBoost_ankita__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.36}"
+CNN_1D_MLiAMR__Tier12_Genes_BDQ_Only_BDQ_LE	"{""Threshold"": 0.51}"
+DeepAMR__Tier12_Genes_BDQ_Only_BDQ_standard	"{""Threshold"": 0.48}"
+SD_CNN_SDCNN_Data_MB_SDCNN	"{""Threshold"": 0.0}"
+SD_CNN__SDCNN_Data_MB_SDCNN	"{""Threshold"": 0.0}"
