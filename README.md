@@ -339,6 +339,13 @@ class MyModelManager(AbstractModel):
 
 ---
 
+## Data Availability
+
+All additional supplementary files and source data associated with this study have been deposited in the following repository:  
+[Google Drive](https://drive.google.com/drive/folders/17DBf0hSLbbl0xsRwQb_7DQhSCP1qok6r?usp=drive_link)
+
+---
+
 ## Citation
 
 If you use TB-Bench in your research, please cite "TB-Bench: A Systematic Benchmark of Machine Learning and Deep Learning Methods for Second-Line TB Drug Resistance Prediction. Brintha VP, Saish Jaiswal, Ansh Meshram, Deepti PVS, Sidharthan S C, Manikandan Narayanan. (manuscript preprint to be submitted to bioRxiv)."
