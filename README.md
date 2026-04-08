@@ -341,4 +341,4 @@ class MyModelManager(AbstractModel):
 
 ## Citation
 
-If you use TB-Bench in your research, please cite ...
+If you use TB-Bench in your research, please cite "TB-Bench: A Systematic Benchmark of Machine Learning and Deep Learning Methods for Second-Line TB Drug Resistance Prediction. Brintha VP, Saish Jaiswal, Ansh Meshram, Deepti PVS, Sidharthan S C, Manikandan Narayanan. (manuscript preprint to be submitted to bioRxiv)."
