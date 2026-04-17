@@ -348,4 +348,5 @@ All additional supplementary files and source data associated with this study ha
 
 ## Citation
 
-If you use TB-Bench in your research, please cite "TB-Bench: A Systematic Benchmark of Machine Learning and Deep Learning Methods for Second-Line TB Drug Resistance Prediction. Brintha VP, Saish Jaiswal, Ansh Meshram, Deepti PVS, Sidharthan S C, Manikandan Narayanan. (manuscript preprint to be submitted to bioRxiv)."
+If you use TB-Bench in your research, please cite "TB-Bench: A Systematic Benchmark of Machine Learning and Deep Learning Methods for Second-Line TB Drug Resistance Prediction. Brintha VP, Saish Jaiswal, Ansh Meshram, Deepti PVS, Sidharthan S C, Manikandan Narayanan."
+[bioRxiv link](https://doi.org/10.64898/2026.04.08.717138)
