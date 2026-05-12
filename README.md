@@ -1,4 +1,4 @@
-# TB-Bench
+# TB-AMR-Bench
 
 A benchmarking framework for evaluating machine (ML) learning and deep learning (DL) models that predict **antibiotic resistance in _Mycobacterium tuberculosis_ (MTB)** from whole-genome sequencing (WGS) data.
 
@@ -8,18 +8,18 @@ A benchmarking framework for evaluating machine (ML) learning and deep learning 
 
 Copyright 2026 BIRDS Group, IIT Madras
 
-TB-Bench is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+TB-AMR-Bench is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-TB-Bench is distributed in the hope that it will be useful,
+TB-AMR-Bench is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
 
-You should have received a copy of the GNU Lesser General Public License along with TB-Bench. If not, see https://www.gnu.org/licenses/.
+You should have received a copy of the GNU Lesser General Public License along with TB-AMR-Bench. If not, see https://www.gnu.org/licenses/.
 
 ## Overview
 
-TB-Bench trains and evaluates a diverse set of classical ML and DL models on genotype–phenotype datasets, one dataset per antibiotic drug. It supports two evaluation modes:
+TB-AMR-Bench trains and evaluates a diverse set of classical ML and DL models on genotype–phenotype datasets, one dataset per antibiotic drug. It supports two evaluation modes:
 
 - **`crossval`** — stratified 80/20 split, 4-fold cross-validation for threshold selection, final evaluation on the held-out 20%.
 - **`test`** — load a previously trained model and evaluate on new external data.
@@ -31,7 +31,7 @@ Results are saved as timestamped CSVs under `results/`, and trained models are p
 ## Project Structure
 
 ```
-TB-Bench/
+TB-AMR-Bench/
 ├── main.py                          # Entry point
 ├── validation.py                    # Training, CV, threshold selection, evaluation
 ├── model_hyperparams.tsv            # Persisted Youden-optimised thresholds
@@ -348,5 +348,5 @@ All additional supplementary files and source data associated with this study ha
 
 ## Citation
 
-If you use TB-Bench in your research, please cite "TB-Bench: A Systematic Benchmark of Machine Learning and Deep Learning Methods for Second-Line TB Drug Resistance Prediction. Brintha VP, Saish Jaiswal, Ansh Meshram, Deepti PVS, Sidharthan S C, Manikandan Narayanan."
+If you use TB-AMR-Bench in your research, please cite "TB-Bench: A Systematic Benchmark of Machine Learning and Deep Learning Methods for Second-Line TB Drug Resistance Prediction. Brintha VP, Saish Jaiswal, Ansh Meshram, Deepti PVS, Sidharthan S C, Manikandan Narayanan."
 [bioRxiv link](https://doi.org/10.64898/2026.04.08.717138)
